@@ -1,0 +1,70 @@
+/* Global container*/
+.ripple-rp-wrapper{
+    margin: 0 0 2em 0;
+}
+
+/* Related posts title container */
+.ripple-rp-wrapper .ripple-rp-header{
+    width: 100%;
+}
+
+/* Related posts header */
+.ripple-rp-wrapper .ripple-rp-header header{
+    float: none;
+    width: 100%;
+}
+
+/* Related posts list */
+.ripple-rp-wrapper .ripple-rp-list{
+    margin: 0;
+    padding: 0;
+}
+
+
+/**************************** Managing the display of one related content element ****************************/
+
+
+/* Related post thumbnail container */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail{
+    width: 45%;
+    float: left;
+    padding-right: 10px;
+}
+
+.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail a {
+    display: inline-block;
+}
+
+.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail a:hover {
+    opacity: 0.8;
+}
+
+.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail img {
+    margin: 0;
+    width: 100%;
+}
+
+/* Related post content container */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content{
+    vertical-align: top;
+}
+
+/* Related post title */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content .ripple-rp-title{
+    font-size: 1.2em;
+}
+
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content .ripple-rp-title a{
+    font-weight: bolder;
+    text-decoration:underline;
+}
+
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content .ripple-rp-title a:hover{
+    text-decoration: none;
+}
+
+/* Related post excerpt container */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content .ripple-rp-excerpt{}
+
+
+

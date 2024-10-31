@@ -1,0 +1,206 @@
+#ripple-admin-wrapper{
+    color: #3e3e3e;
+}
+
+#ripple-admin-wrapper h1, #ripple-admin-wrapper h2, #ripple-admin-wrapper h3, #ripple-admin-wrapper h4{
+    text-transform:uppercase;
+}
+
+#ripple-admin-wrapper h1.ripple-admin-title{
+    margin: 0 0 20px 0;
+    padding: 10px;
+    background: #ffffff;
+    border-radius:3px;
+    font-weight: 700;
+    color: #049ee8;
+    border: 1px solid #c9c9c9;
+}
+
+
+#ripple-admin-wrapper a.help-link{
+    color:#ffffff;
+    border-radius: 3px;
+    background: #049ee8;
+    padding: 4px 10px 4px 10px;
+    font-size: 0.8em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#ripple-admin-wrapper a.help-link:hover{
+    opacity:0.8;
+}
+
+#ripple-admin-wrapper .ripple-admin-section a.help-link{
+    background: #777777;
+}
+
+
+
+section.ripple-admin-section{
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    position: relative;
+}
+
+section.ripple-admin-section h2.ripple-section-title{
+    margin: 10px 0 20px 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+section.ripple-admin-section .ripple-section-content{
+    margin: 20px 0 20px 0;
+}
+
+section.ripple-admin-section .activation-option{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+
+.ripple-admin-page-intro, section.ripple-admin-section .ripple-section-intro{
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    padding: 20px 30px 20px 37px;
+}
+
+.ripple-admin-page-intro{
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    min-height: 150px;
+    padding: 20px 30px 20px 190px;
+    background: #0073aa url("../img/speech-bubble-24-120.png") 30px 50% no-repeat;
+}
+
+
+section.ripple-admin-section .ripple-section-intro{
+    background: #e3e3e3;
+}
+.ripple-admin-page-intro ul{
+    list-style: circle inside;
+    padding: 0 0 0 20px;
+    font-size: 16px;
+}
+.ripple-admin-page-intro p {
+    font-size: 16px;
+}
+
+
+.ripple-admin-page-intro:before, section.ripple-admin-section .ripple-section-intro:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+}
+
+section.ripple-admin-section .ripple-section-intro ul{
+    list-style: circle inside;
+    padding: 0 0 0 20px;
+}
+section.ripple-admin-section .ripple-section-intro:before {
+    content: "\f129";
+    top: 20px;
+    left: 20px;
+}
+
+section.ripple-admin-section .pretty{
+    font-size: 40px;
+}
+
+.pretty i::before{
+    background: transparent;
+}
+
+section.ripple-admin-action {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+section.ripple-admin-action button.ripple-button:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c7";
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 20px;
+}
+
+
+section.ripple-admin-action button.ripple-button{
+    font-size: 16px;
+    min-height: 35px;
+    padding: 11px 20px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: #0073aa;
+    color: #ffffff;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    transition: all 0.3s ease 0s;
+}
+
+section.ripple-admin-action button.ripple-button:hover{
+    background: #008ec2;
+}
+
+.swal2-content table{
+    width: 100%;
+}
+
+.swal2-content table {
+    border-spacing: 1px;
+    border-collapse: collapse;
+}
+
+.swal2-content table thead{
+    background: #0073aa;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.swal2-content table thead th{
+    border:1px solid #0073aa;
+    padding: 5px;
+}
+
+.swal2-content table ul{
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 30px;
+}
+
+.swal2-content table tbody tr:nth-child(even){
+    background:#f0f0f0;
+    border: 1px solid #cecece;
+}
+.swal2-content table tbody td{
+    padding: 5px;
+    border:1px solid #cecece;
+}
+
+.swal2-content .code-example{
+    border: 3px dashed #cecece;
+    background: #f0f0f0;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
+.swal2-content .code-example .red{
+    color:#dd1a1a;
+}
+.swal2-content .code-example .blue{
+    color:#1a88dd;
+}

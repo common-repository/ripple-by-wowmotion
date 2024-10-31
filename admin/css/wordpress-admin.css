@@ -1,0 +1,7 @@
+/**
+ * Ripple meta box on post type
+ */
+
+#ripple_meta_box input{
+    width: 100%;
+}

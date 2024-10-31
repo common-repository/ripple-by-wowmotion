@@ -1,0 +1,27 @@
+/**************************** Common CSS for grid system ****************************/
+
+.ripple-rp-wrapper *, .ripple-rp-wrapper *:after, .ripple-rp-wrapper *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ripple-rp-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ripple-rp-wrapper .ripple-rp-row{
+     margin: 0 -10px 0 -10px;
+ }
+
+.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col{
+    padding: 0 10px 1.50em 10px;
+    margin-bottom: 1.50em;
+}
+
+.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail{
+    padding-right: 10px;
+}
+

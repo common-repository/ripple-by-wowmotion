@@ -1,0 +1,48 @@
+/**************************** Flex grid system for related post list ****************************/
+
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col{flex-grow: 999999;}
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-2 { flex-basis: 50%; }
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-3 { flex-basis: 33.333333%; }
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-4 { flex-basis: 25%; }
+
+/**************************** Managing the display of one related content element ****************************/
+
+/* Container for one related post */
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Related post thumbnail container */
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail{
+    flex: 0.8;
+    min-width: 70px;
+    flex-grow: 999999;
+}
+
+/* Related post content container */
+.ripple-flex-grid.ripple-rp-wrapper .ripple-rp .ripple-rp-content{
+    flex: 1.2;
+    min-width: 120px;
+    flex-grow: 999999;
+}
+
+/**************************** CSS for small devices ****************************/
+
+/* TODO: allow the configuration of the breakpoint ? */
+@media only screen and (max-width : 767px){
+
+    .ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-2,
+    .ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-3,
+    .ripple-flex-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-4{
+        flex-basis: 100%;
+    }
+
+}

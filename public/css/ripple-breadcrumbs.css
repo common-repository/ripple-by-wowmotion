@@ -1,0 +1,30 @@
+.ripple-breadcrumbs{
+    list-style:none;
+    line-height: 30px;
+    overflow:hidden;
+    padding: 5px;
+    margin: 0;
+}
+
+.ripple-breadcrumbs li:nth-child(1){
+    margin-left: 0;
+}
+
+.ripple-breadcrumbs li{
+    display:inline-block;
+    margin: 3px 10px;
+}
+
+.ripple-breadcrumbs .ripple-breadcrumb-separator{
+    font-size:18px;
+    font-weight:100;
+    color:#ccc;
+}
+
+.ripple-breadcrumbs li a{
+    text-decoration: underline;
+}
+
+.ripple-breadcrumbs li a:hover{
+    text-decoration: none;
+}

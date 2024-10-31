@@ -1,0 +1,35 @@
+/**************************** Classic grid system for related post list ****************************/
+
+.ripple-classic-grid .ripple-rp-wrapper .ripple-rp-row{}
+
+.ripple-classic-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col{ float: left; }
+.ripple-classic-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-2 { width: 50%; }
+.ripple-classic-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-3 { width: 33.333333%; }
+.ripple-classic-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-4 { width: 25%; }
+
+/**************************** Managing the display of one related content element ****************************/
+
+/* Related post thumbnail container */
+.ripple-classic-grid.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail{
+    width: 25%;
+    float: left;
+}
+
+/* Related post content container */
+.ripple-classic-grid.ripple-rp-wrapper .ripple-rp .ripple-rp-content{
+    width: 75%;
+    float: left;
+}
+
+
+/**************************** CSS for small devices ****************************/
+
+/* TODO: allow the configuration of the breakpoint ? */
+@media only screen and (max-width : 767px){
+
+    .ripple-classic-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-2,
+    .ripple-classic-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-3,
+    .ripple-classic-grid.ripple-rp-wrapper .ripple-rp-row .ripple-rp-col.col-4{
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+/* Global container*/
+.ripple-rp-wrapper{}
+
+/* Related posts title container */
+.ripple-rp-wrapper .ripple-rp-header{}
+
+/* Related posts header */
+.ripple-rp-wrapper .ripple-rp-header header{}
+
+/* Related posts list */
+.ripple-rp-wrapper .ripple-rp-list{}
+
+/* Container for one related post */
+.ripple-rp-wrapper .ripple-rp{}
+
+/* Related post thumbnail container */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-thumbnail{}
+
+/* Related post content container */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content{}
+
+/* Related post title */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content .ripple-rp-title{}
+
+/* Related post excerpt container */
+.ripple-rp-wrapper .ripple-rp .ripple-rp-content .ripple-rp-excerpt{}

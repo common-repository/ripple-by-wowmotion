@@ -1,0 +1,23 @@
+#ripple-post-type-form-container{
+    display: none; /* The box is displayed by JS */
+}
+
+#ripple-post-type-form-container .checkbox-container{
+    display:block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: -2px 5px 0 0;
+}
+
+#ripple-post-type-form-container .checkbox-container input {
+    margin: 2px 0 0 2px;
+}
+
+#ripple-post-type-form-container .spinner{
+    margin: 0;
+    float: none;
+    position:absolute;
+
+}
